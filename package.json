@@ -1,0 +1,28 @@
+{
+  "name": "01.semanticuitraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "run": "index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipomage/01.semanticUi.git"
+  },
+  "keywords": [
+    "semantic",
+    "ui",
+    "training"
+  ],
+  "author": "VIPoMage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vipomage/01.semanticUi/issues"
+  },
+  "homepage": "https://github.com/vipomage/01.semanticUi#readme",
+  "dependencies": {
+    "semantic-ui-calendar": "0.0.8"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Semantic UI Training</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+      integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q="
+      crossorigin="anonymous"
+    />
+    <script
+      type="text/javascript"
+      src="node_modules/semantic-ui-calendar/dist/calendar.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="node_modules/semantic-ui-calendar/dist/calendar.min.css"
+    />
+  </head>
+  <body>
+    <div class="ui left vertical menu sidebar">
+      <a id="search" class="item"><i class="large search icon"></i>Search</a>
+      <a id="calendar" class="item calendar-item"
+        ><i class="large calendar icon"></i>Calendar</a
+      >
+      <a id="table" class="item table-item"
+        ><i class="large table icon"></i>Table</a
+      >
+    </div>
+    <div class="pusher">
+      <button class="ui medium primary button">Menu</button>
+      <div id="content"></div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
